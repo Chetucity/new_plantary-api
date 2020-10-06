@@ -80,7 +80,7 @@ def hello_world():
 
 @app.route('/super_simple')
 def super_simple():
-    return jsonify(message='Hello from the Planetary API.'), 200
+    return jsonify(message='Hello  from the Planetary API.'), 200
 
 
 @app.route('/not_found')
